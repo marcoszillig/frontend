@@ -68,37 +68,31 @@
           <button class="prev"><a href="#"></a></button
           ><button class="next"><a href="#"></a></button>
         </div>
-        <div class="recommendation__card col-sm-4">
-          <div class="card">
-            <span class="recommendation-card__title-index">1</span>
-            <h4 class="recommendation-card__title">Organize seu tempo</h4>
-            <p class="recommendation-card__description">
-              Verifique quanto tempo você tem disponível para realizar o teste
-              com eficiênciae então crie pequenas metas para manter o ritmo.
-            </p>
-          </div>
+        <div class="recommendation__card col-sm-12 col-md-4 card">
+          <span class="recommendation-card__title-index">1</span>
+          <h4 class="recommendation-card__title">Organize seu tempo</h4>
+          <p class="recommendation-card__description">
+            Verifique quanto tempo você tem disponível para realizar o teste com
+            eficiênciae então crie pequenas metas para manter o ritmo.
+          </p>
         </div>
 
-        <div class="recommendation__card col-sm-4 ">
-          <div class="card">
-            <span class="recommendation-card__title-index">2</span>
-            <h4 class="recommendation-card__title">Tire suas dúvidas</h4>
-            <p class="recommendation-card__description">
-              Se houver alguma dúvida, procure o aplicador do teste, assim você
-              terá melhores chances de entregar o que foi proposto.
-            </p>
-          </div>
+        <div class="recommendation__card col-sm-12 col-md-4 card ">
+          <span class="recommendation-card__title-index">2</span>
+          <h4 class="recommendation-card__title">Tire suas dúvidas</h4>
+          <p class="recommendation-card__description">
+            Se houver alguma dúvida, procure o aplicador do teste, assim você
+            terá melhores chances de entregar o que foi proposto.
+          </p>
         </div>
 
-        <div class="recommendation__card col-sm-4">
-          <div class="card">
-            <span class="recommendation-card__title-index">3</span>
-            <h4 class="recommendation-card__title">Seja criativo</h4>
-            <p class="recommendation-card__description">
-              Existem várias formas de resolveruma questão de html e css ou
-              javascript, mostre que você domina a melhor.
-            </p>
-          </div>
+        <div class="recommendation__card col-sm-12 col-md-4 card">
+          <span class="recommendation-card__title-index">3</span>
+          <h4 class="recommendation-card__title">Seja criativo</h4>
+          <p class="recommendation-card__description">
+            Existem várias formas de resolveruma questão de html e css ou
+            javascript, mostre que você domina a melhor.
+          </p>
         </div>
       </div>
     </section>
@@ -185,30 +179,40 @@
           </ul>
         </div>
       </div>
-      <div class="test-feedback container">
-        <div class="test-feedback__content">
-          <h4 class="test-feedback__title">Gostou do teste?</h4>
-          <p class="test-feedback__description">
+      <div class="feedback-test container">
+        <div class="feedback-test__content">
+          <h4 class="feedback-test__title">Gostou do teste?</h4>
+          <p class="feedback-test__description">
             Conte para nós o que você gostou no teste e o que você mudaria para
             melhor avaliar um candidato à essa vaga. Sua opinião é importante
             para nós, queremos os melhores no nosso me.
           </p>
         </div>
-        <div class="test-feedback__form">
-          <form action="">
-            <input type="text" name="name" id="name" placeholder="Nome" />
-            <input
-              type="text"
-              name="surname"
-              id="surname"
-              placeholder="Sobrenome"
-            />
+        <div class="feedback-test__form">
+          <form action="" class="form-row">
+            <div class="form-row">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nome"
+                class="form-control"
+              />
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                placeholder="Sobrenome"
+                class="form-control"
+              />
+            </div>
             <textarea
               name="comments"
               id="comments"
               cols="30"
               rows="4"
               placeholder="Comentários"
+              class="form-control"
             ></textarea>
             <input type="submit" value="Enviar" />
           </form>
@@ -216,16 +220,27 @@
       </div>
     </section>
     <section class="footer">
-      <div class="footer__content">
-        <h3>FIM DO TESTE!</h3>
-        <p>
-          <strong>TesteInovação</strong> é uma marca fic cia com a única
-          finalidade de servir como material de estudo da equipe de inovação do
-          Grupo Comunique-se.
-        </p>
-        <p>IMPORTANTE: Não compartilhe esse teste.</p>
+      <div class="container">
+        <div class="row">
+          <div class="footer__content col-sm-12 col-md-8 ">
+            <h3 class="footer__content__title">FIM DO TESTE!</h3>
+            <div class="footer__content__text">
+              <p>
+                <strong>TesteInovação</strong> é uma marca fic cia com a única
+                finalidade de servir como material de estudo da equipe de inovação
+                do Grupo Comunique-se.
+              </p>
+              <p>IMPORTANTE: Não compartilhe esse teste.</p>
+            </div>
+          </div>
+          <div class="footer__social-media col-sm-12 col-md-3 ">
+            <a href="#"><img src="./assets/pinterest.png" alt=""></a>
+            <a href="#"><img src="./assets/skype.png" alt=""></a>
+            <a href="#"><img src="./assets/twitter.png" alt=""></a>
+            <a href="#"><img src="./assets/youtube.png" alt=""></a>
+          </div>
+        </div>
       </div>
-      <div class="footer__social-media"></div>
     </section>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
